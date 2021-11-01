@@ -119,4 +119,3 @@ print(abs(v * 3))
 # A faster implementation of Vector .__bool__ is:
 def __bool__(self):
     return bool(self.x or self.y)
-
